@@ -2,6 +2,7 @@
 
 require_once dirname(__FILE__) . '/paths.php';
 require_once dirname(__FILE__) . '/plugins/index.php';
+require_once dirname(__FILE__) . '/update.php';
 
 // Style admin
 function add_admin_theme()
