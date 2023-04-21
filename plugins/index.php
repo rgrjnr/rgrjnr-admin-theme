@@ -129,6 +129,12 @@ function rgrjnr_register_required_plugins()
 			'required'  => true,
 		),
 
+		array(
+			'name'      => 'SVG Support',
+			'slug'      => 'safe-svg',
+			'required'  => true,
+		),
+
 	);
 
 	/*
