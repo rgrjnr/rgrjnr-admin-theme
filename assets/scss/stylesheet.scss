@@ -931,6 +931,25 @@ body {
         color: #344054;
     }
 
+    .update-message,
+    .hmwp_notice.notice {
+        background-color: #fcf9e8 !important;
+        border: 1px solid #eeda9d !important;
+    }
+
+    .cky-header {
+        display: none;
+    }
+
+    .cky-app-wrap .cky-app-nav-bar {
+        left: 200px;
+    }
+
+    .cky-app-wrap .cky-row,
+    .cky-nav-menu {
+        margin-left: 0;
+    }
+
     @media only screen and (max-width: 960px) {
 
         .auto-fold #adminmenu,
