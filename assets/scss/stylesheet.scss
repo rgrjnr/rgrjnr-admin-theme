@@ -950,6 +950,12 @@ body {
         margin-left: 0;
     }
 
+    .button.updated-message:before,
+    .installed p:before,
+    .updated-message p:before {
+        color: #1daa35;
+    }
+
     @media only screen and (max-width: 960px) {
 
         .auto-fold #adminmenu,
