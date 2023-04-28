@@ -703,15 +703,18 @@ body {
     .wrap .add-new-h2,
     .wrap .add-new-h2:active,
     .wrap .page-title-action,
-    .wrap .page-title-action:active {
-        display: inline-block;
+    .wrap .page-title-action:active,
+    .btn {
+        display: inline-flex;
+        align-items: center;
         margin-left: 0.5rem;
         padding: 0.5rem 1rem;
         transform: translateY(-3px);
-        color: white;
+        color: white !important;
         background: #2ead4b;
-        border-radius: 1rem;
+        border-radius: 2rem;
         border: none;
+        white-space: nowrap;
 
     }
 
@@ -733,8 +736,7 @@ body {
         margin: -0.65rem;
     }
 
-    .wrap h1.wp-heading-inline,
-    div:not(.media-frame-title) h1 {
+    .wrap h1.wp-heading-inline {
         width: fit-content;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -900,8 +902,6 @@ body {
     }
 
     .acf-admin-toolbar {
-        background-color: #181b1f;
-        margin-left: 0;
         display: none;
     }
 
@@ -910,7 +910,19 @@ body {
     }
 
     .acf-headerbar {
-        display: none;
+        margin-left: 0;
+        background-color: white;
+        border-radius: 1rem 1rem 0 0;
+        position: relative;
+
+
+        .acf-btn {
+            @extend .btn;
+        }
+    }
+
+    .acf-editor-wrap .wp-editor-container {
+        border: 1px solid #ccd0d4 !important;
     }
 
     #e-admin-top-bar-root {
