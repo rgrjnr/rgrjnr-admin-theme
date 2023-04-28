@@ -108,6 +108,11 @@ function rgrjnr_register_required_plugins()
 			'required'  => true,
 		),
 		array(
+			'name'      => 'Duplicate Post',
+			'slug'      => 'duplicate-post',
+			'required'  => true,
+		),
+		array(
 			'name'      => 'Contact Form',
 			'slug'      => 'contact-form-7',
 			'required'  => false,

@@ -4,7 +4,7 @@
  * Plugin Name: Custom Admin Theme
  * Plugin URI: https://rogerjunior.com/
  * Description: This updates the WordPress Admin Panel theme.
- * Version: 1.0.1
+ * Version: 2.0.0
  * Author: Roger Junior
  * Plugin URI: https://rogerjunior.com/
  **/
