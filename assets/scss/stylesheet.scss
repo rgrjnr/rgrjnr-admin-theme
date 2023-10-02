@@ -14,6 +14,8 @@
       --color-icon: #a7aaad;
       --color-border: hsl(210, 20%, 90%);
       --sidebar-size: 50px; //--color-background: #f2f5f7;
+      --color-button: #2ead4b;
+      --color-primary: #0000f1;
   }
 
 
@@ -262,6 +264,11 @@
       #adminmenu .wp-submenu {
           border-radius: 0 0.25rem 0.25rem 0;
           left: 200px;
+
+          &>li>a {
+              margin-inline: 8px;
+              border-radius: 1rem;
+          }
       }
 
       #adminmenu .wp-submenu,
@@ -724,11 +731,16 @@
           padding: 0.5rem 1rem;
           transform: translateY(-3px);
           color: white !important;
-          background: #2ead4b;
+          background: var(--color-button);
           border-radius: 2rem;
           border: none;
           white-space: nowrap;
 
+      }
+
+      .w3tc-button-control-container .w3tc-button-flush-dropdown>.btn {
+
+          background: var(--color-button);
       }
 
       .alternate,
@@ -1741,6 +1753,7 @@
 
   #wpcontent {
       padding-left: 0;
+      padding-right: 0;
   }
 
   .acf-admin-toolbar {
@@ -2022,6 +2035,88 @@
   #aioseo-flyout-menu,
   .aioseo-cta.dashboard-cta,
   #wpcf7-welcome-panel,
-  #poststuff.aioseo-taxonomy-upsell {
+  #poststuff.aioseo-taxonomy-upsell,
+  #w3tc-footer {
       display: none;
+  }
+
+  #w3tc {
+
+      #overlay,
+      #w3tc-dashboard-widgets {
+          display: none;
+      }
+
+  }
+
+  #w3tc-top-nav-bar {
+      background: white;
+      padding: 1rem;
+      box-shadow: none;
+      margin-left: -48px;
+      margin-right: -48px;
+  }
+
+  .post-type-tutorial {
+
+      .tablenav {
+          display: none;
+      }
+
+      #search-submit {
+          background-color: var(--color-button) !important;
+          color: white !important;
+      }
+
+      .search-box {
+          margin-bottom: 1rem;
+      }
+
+
+      .wp-heading-inline,
+      #mceu_25,
+      .page-title-action,
+      #show-settings-link {
+          display: none !important;
+      }
+
+      #titlediv #title {
+          padding: 0;
+          border: none;
+          background-color: transparent;
+          font-size: 2rem;
+          font-style: italic;
+          font-weight: 1000;
+          color: var(--color-primary)
+      }
+
+      .table-view-list {
+          display: grid;
+          background: transparent;
+          border: none !important;
+
+          thead,
+          tfoot {
+              display: none;
+
+          }
+
+          tbody {
+              display: grid;
+              gap: 1rem;
+          }
+
+          tr {
+              display: flex;
+              border-radius: 0.25rem;
+              border: 1px solid var(--color-border);
+              background-color: white !important;
+          }
+
+          .column-aioseo-details,
+          .column-date {
+              display: none;
+          }
+
+      }
   }

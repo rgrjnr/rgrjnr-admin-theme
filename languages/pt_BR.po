@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-10-02 14:13+0100\n"
+"PO-Revision-Date: 2023-10-02 14:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:44
+msgid "Bem-vindo"
+msgstr ""
+
+#: index.php:51
+msgid ""
+"<p>Olá, se você tiver alguma dúvida, problema ou solicitação, pode entrar em "
+"contato diretamente com <a href=\"mailto:roger@rogerjunior.com"
+"\">roger@rogerjunior.com</a>.</p>"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:340 plugins/index.php:171
+msgid "Install Required Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:345
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:346
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:398
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:400
+#: plugins/class-tgm-plugin-activation.php:3344
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:401
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:405
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:407
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:408
+msgid "Dismiss this notice"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:409
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:410
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2133
+#, php-format
+msgid "RGRJNR v%s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2434
+msgid "Required"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2437
+msgid "Recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2454
+msgid "WordPress Repository"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2457
+msgid "External Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2460
+msgid "Pre-Packaged"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2478
+msgid "Not Installed"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2482
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2484
+msgid "Active"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2490
+msgid "Required Update not Available"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2492
+msgid "Requires Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2494
+msgid "Update recommended"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2657
+msgid "Installed version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2665
+msgid "Minimum required version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2677
+msgid "Available version:"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2716
+msgid "Plugin"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2717
+msgid "Source"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2718
+msgid "Type"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2722
+msgid "Version"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2723
+msgid "Status"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2775
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2780
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2786
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2893
+msgid "Install"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2899
+msgid "Update"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2902
+msgid "Activate"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2934
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2936
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2977
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:2979
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3343
+msgid "Plugin activation failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3690
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3693
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3695
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3699
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3701
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3702
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3704
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3707
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3710
+msgid "All installations have been completed."
+msgstr ""
+
+#: plugins/class-tgm-plugin-activation.php:3712
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: plugins/index.php:172
+msgid "Required Plugins"
+msgstr ""
+
+#: preview.php:15
+msgid "Preview"
+msgstr "Pré-visualizar"
+
+#: tutorials.php:10 tutorials.php:11
+msgid "Tutorials"
+msgstr "Tutoriais"
+
+#: tutorials.php:12
+msgid "Tutorial Archives"
+msgstr "Arquivo"
+
+#: tutorials.php:13
+msgid "Tutorial Attributes"
+msgstr "Atributos"
+
+#: tutorials.php:14
+msgid "Parent Tutorial:"
+msgstr "Tutorial-pai"
+
+#: tutorials.php:15
+msgid "All Tutorials"
+msgstr "Tutoriais"
+
+#: tutorials.php:16
+msgid "Add New Tutorial"
+msgstr "Novo Tutorial"
+
+#: tutorials.php:17
+msgid "Add New"
+msgstr "Adicionar"
+
+#: tutorials.php:18
+msgid "New Tutorial"
+msgstr "Novo Tutorial"
+
+#: tutorials.php:19
+msgid "Edit Tutorial"
+msgstr "Editar"
+
+#: tutorials.php:20
+msgid "Update Tutorial"
+msgstr "Editar Tutorial"
+
+#: tutorials.php:21
+msgid "View Tutorial"
+msgstr "Ver"
+
+#: tutorials.php:22
+msgid "View Tutorials"
+msgstr "Ver Tutoriais"
+
+#: tutorials.php:23
+msgid "Search"
+msgstr "Buscar"
+
+#: tutorials.php:24
+msgid "Not found"
+msgstr "Não encontrado"
+
+#: tutorials.php:25
+msgid "Not found in Trash"
+msgstr "Não encontrado"
+
+#: tutorials.php:26
+msgid "Featured Image"
+msgstr "Imagem em destaque"
+
+#: tutorials.php:27
+msgid "Set featured image"
+msgstr "Escolher uma imagem em destaque"
+
+#: tutorials.php:28
+msgid "Remove featured image"
+msgstr "Remover imagem em destaque"
+
+#: tutorials.php:29
+msgid "Use as featured image"
+msgstr "Usar como imagem em destaque"
+
+#: tutorials.php:30
+msgid "Insert into item"
+msgstr ""
+
+#: tutorials.php:31
+msgid "Uploaded to this item"
+msgstr ""
+
+#: tutorials.php:32
+msgid "Tutorials list"
+msgstr ""
+
+#: tutorials.php:33
+msgid "Tutorials list navigation"
+msgstr ""
+
+#: tutorials.php:34
+msgid "Filter items list"
+msgstr ""
+
+#: tutorials.php:38
+msgid "tutorial"
+msgstr ""

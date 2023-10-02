@@ -1,8 +1,21 @@
-<?php
+<?php /*
+ * Plugin Name:       Custom Admin Theme
+ * Description:       This plugins gives a custom appearance to the WordPress admin panel and some other features.
+ * Version:           1.10.3
+ * Requires at least: 5.2
+ * Requires PHP:      7.2
+ * Author:            Roger Junior
+ * Author URI:        https://rogerjunior.com/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       rgrjnr
+ * Domain Path:       /languages
+ */
 
 require_once dirname(__FILE__) . '/paths.php';
 require_once dirname(__FILE__) . '/plugins/index.php';
 require_once dirname(__FILE__) . '/preview.php';
+require_once dirname(__FILE__) . '/tutorials.php';
 
 // Style admin
 function add_admin_theme()
