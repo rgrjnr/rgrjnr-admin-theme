@@ -127,13 +127,16 @@ function rgrjnr_register_required_plugins()
 			'slug'      => 'google-site-kit',
 			'required'  => true,
 		),
-
 		array(
 			'name'      => 'Cookie Management',
 			'slug'      => 'cookie-law-info',
 			'required'  => true,
 		),
-
+		array(
+			'name'      => 'Manage WP',
+			'slug'      => 'worker',
+			'required'  => true,
+		),
 		array(
 			'name'      => 'SVG Support',
 			'slug'      => 'safe-svg',
